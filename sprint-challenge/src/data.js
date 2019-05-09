@@ -3,7 +3,7 @@ const reactData = [
     {
         firstName: "Jim",
         lastName: "Pickens",
-        favColorHex: '#cc4401',
+        favColorHex: "#cc4401",
         likes: [
             "pranks",
             "cats",
