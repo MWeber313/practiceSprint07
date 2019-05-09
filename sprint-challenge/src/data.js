@@ -1,4 +1,3 @@
-
 const reactData = [
     {
         firstName: "Jim",

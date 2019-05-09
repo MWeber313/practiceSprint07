@@ -8,7 +8,7 @@ const NonFunction = styled.button`
     border-radius: 25%;
     ${props => props.selectItem && css`
         color: black;
-        background-color: ${props.colorProps};
+        background-color: ${props.coloringProps};
     `}
 `
 
@@ -17,7 +17,7 @@ function FavColor (props) {
     return(
     <div>
         <div>
-            <NonFunction selectItem colorProps={props.colorProps} className={props.favClassName ? "activated" : "deactivated"}>{props.colorProps}</NonFunction>
+            <NonFunction selectItem coloringProps={props.colorProps} className={props.favClassName ? "activated" : "deactivated"}>{props.colorProps}</NonFunction>
         </div>
     </div>
     )
