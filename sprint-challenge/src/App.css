@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+.Deactivated{
+  display: none;
+}
+.Activated {
+  display: block;
+}
